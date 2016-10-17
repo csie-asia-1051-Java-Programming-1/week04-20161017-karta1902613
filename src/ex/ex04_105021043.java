@@ -18,7 +18,7 @@ public class ex04_105021043 {
 		char f = scn.next().charAt(0);	
 		int sum=0;
 		for(int i=n;i>0;i--){
-			System.out.println("");
 			sum+=i;
-			for(int j=i;j>0;j--){
-				System.out.print(f);}}}}
+		for(int j=i;j>0;j--){
+			System.out.print(f);}
+			System.out.println("");}}}
