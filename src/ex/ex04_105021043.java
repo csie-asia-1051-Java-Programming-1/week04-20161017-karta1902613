@@ -6,14 +6,18 @@
     @@  
     @
  * Date: 2016/10/17
- * Author: 1050210XX 周永振老師
+ * Author: 105021043 劉凱文
  */
-
-public class ex04_1050210XX {
+import java.util.Scanner;
+public class ex04_105021043 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-
-	}
-
-}
+		Scanner scn=new Scanner(System.in);
+		int n = scn.nextInt();
+		int sum=0;
+		for(int i=n;i>0;i--){
+			System.out.println("");
+			sum+=i;
+			for(int j=i;j>0;j--){
+				System.out.print("@");}}}}
