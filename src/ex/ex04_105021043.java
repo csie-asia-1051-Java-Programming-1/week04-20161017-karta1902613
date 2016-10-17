@@ -15,9 +15,10 @@ public class ex04_105021043 {
 		// TODO Auto-generated method stub
 		Scanner scn=new Scanner(System.in);
 		int n = scn.nextInt();
+		char f = scn.next().charAt(0);	
 		int sum=0;
 		for(int i=n;i>0;i--){
 			System.out.println("");
 			sum+=i;
 			for(int j=i;j>0;j--){
-				System.out.print("@");}}}}
+				System.out.print(f);}}}}
